@@ -65,12 +65,28 @@
     }
   }
   .left {
-    width: 60%;
+    width: 60%; 
     .tip {
       color: #7f7f7f;
-      margin-top: 10px;
+      margin-top: 20px;
       display: flex;
       justify-content: space-between;
+        .level{
+            
+            display: flex;
+            align-items: center;
+            span{
+                margin-left: 5px;
+            }
+        }
+        .time{
+            
+            display: flex;
+            align-items: center;
+            span{
+                margin-left: 5px;
+            }
+        }
     }
   }
 }
